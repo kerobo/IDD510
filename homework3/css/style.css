@@ -6,11 +6,11 @@
 h1{
 	color:#13803c;
 	font-family:Roboto, Arial;
-	padding:10px;
+	padding:10px 0px;
 }
 
 h2{
-	padding:10px;
+	padding:10px 0px;
 }
 
 footer{
@@ -46,7 +46,7 @@ li p{
 	color:#FFFFFF;
 }
 
-.eventtext{
+.content{
 	padding:40px 0px 40px 10px;
 	font-family:Arial;
 }
