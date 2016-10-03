@@ -1,0 +1,31 @@
+h1{
+	color:#13803c;
+	font-family:Roboto, Arial;
+}
+
+footer{
+	padding:40px;
+	background-color:#13803c;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:15px;
+	text-align:center;
+}
+
+ul{
+	text-align: right;
+	line-height:40px;
+	list-style-position: inside;
+}
+
+.topnav{
+	padding:40px;
+	background-color:#13803c;
+	font-family:Roboto, Arial;
+	color:#FFFFFF;
+}
+
+.eventtext{
+	padding:50px 0px 40px 10px;
+	font-family:Arial;
+}
