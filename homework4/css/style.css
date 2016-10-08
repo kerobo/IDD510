@@ -1,0 +1,157 @@
+*, body{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	font-family:Montserrat, Arial;
+}
+
+h2{
+	font-family:Ubuntu, Arial;
+	color:#FFFFFF;
+	background-color:#2b61c4;
+	margin:20px 0px;
+	padding:10px 20px;
+}
+
+p{
+	padding:10px 0px;
+	font-family:Arial;
+}
+
+a{
+	font-family:Ubuntu;
+	color:#000000;
+	text-decoration: none;
+}
+
+a:hover{
+	border-bottom:2px solid black;
+}
+
+ul, ol{
+	margin-left:50px;
+}
+
+ul li, ol li{
+}
+
+.wrapper{
+	max-width:800px;
+	display:block;
+	margin:0px auto;
+	width:96%;
+	padding:0px 2%;
+}
+
+
+/* HEADER */
+header{
+
+}
+
+header a{
+	padding:0px 10px;
+	font-family:Ubuntu;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+header a:hover{
+	padding:0px 10px;
+	border-bottom:2px solid white;
+}
+
+.titlebanner{
+	display:block;
+	margin:0px auto;
+	color:#FFFFFF;
+	text-shadow: 4px 4px 2px rgba(14, 16, 68, 1);
+	background-image: url("../images/lighthouse.jpg");
+	max-width:600px;
+	height:200px;
+}
+
+.titlebanner h1{
+	padding-top:75px;
+	padding-left:35px;
+}
+
+.topnav{
+	text-align:center;
+	display:block;
+	margin:0px auto;
+	background-color:#2b61c4;
+	max-width:600px;
+}
+
+/* CONTENT */
+.content{
+	padding-top:50px;
+}
+
+.content img{
+	float:right;
+	width:50%;
+	margin:10px;
+}
+
+.content .intro{
+	float:left;
+}
+
+.returntotop{
+	float:right;
+}
+
+#newsupates{
+	padding-top:50px;
+}
+
+#newsupdates p{
+	padding-left:20px;
+}
+
+#community{
+	padding-top:50px;
+}
+
+#community p{
+	padding-left:20px;
+}
+
+#govresources{
+	padding-top:50px;
+}
+
+#govresources p{
+	padding-left:20px;
+}
+
+#contactform p, form{
+	padding-left:20px;
+}
+
+.submitthankyou p{
+	padding-left:20px;
+}
+
+.returnhome{
+	float:right;
+}
+
+
+/* FOOTER */
+footer{
+	display:block;
+	margin:0px auto;
+	padding:20px 0px 30px 0px;
+	background-color:#2b61c4;
+}
+
+footer p{
+	font-family:Ubuntu, Arial;
+	color:#FFFFFF;
+	text-align:center;
+}
