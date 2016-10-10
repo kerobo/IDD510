@@ -10,7 +10,7 @@ h1{
 
 h2{
 	font-family:Ubuntu, Arial;
-	color:#FFFFFF;
+	color:#FFFFFF; 
 	background-color:#2b61c4;
 	margin:20px 0px;
 	padding:10px 20px;
@@ -109,18 +109,19 @@ header a:hover{
 
 /* CONTENT */
 .content{
-	padding-top:50px;
+	margin-top:50px;
 }
 
-.content img{
-	float:right;
-	position:relative;
-	width:50%;
-	margin:10px;
-}
-
-.content .intro{
+.introtext{
 	float:left;
+	width:60%;
+}
+
+.intro img{
+	float:right;
+	width:30%;
+	margin:10px;
+	position:relative;
 }
 
 .returntotop{
