@@ -153,6 +153,7 @@ header .navlinks{
 	margin:50px auto;
 	background-color:#fd898e;
 	height:343px;
+	border-radius:10px;
 }
 
 .content .eventsblock h1{
@@ -176,6 +177,8 @@ header .navlinks{
 
 .content .eventsblock .eventblockright img{
 	width:100%;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
 }
 
 .content .eventsblock .eventblockright .eventtitledate{
@@ -245,6 +248,11 @@ header .navlinks{
 		max-width: 700px;
 	}
 
+	.content .eventsblock .eventblockright img{
+		border-top-left-radius:10px;
+		border-bottom-right-radius: 0px;
+	}
+
 	.content .eventsblock .eventblockleft .moreevents{
 		padding-right:0px;
 	}
@@ -271,6 +279,7 @@ header .navlinks{
 	margin:50px auto;
 	background-color:#ffb96e;
 	height:343px;
+	border-radius:10px;
 }
 
 .content .newsblock h1{
@@ -294,6 +303,8 @@ header .navlinks{
 
 .content .newsblock .newsright img{
 	width:100%;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
 }
 
 .content .newsblock .newsleft{
@@ -349,6 +360,11 @@ header .navlinks{
 		max-width: 700px;
 	}
 
+	.content .newsblock .newsright img{
+		border-top-left-radius:10px;
+		border-bottom-right-radius:0px;
+	}
+
 	.content .newsblock .newsleft .morenews{
 		padding-right:0px;
 	}
@@ -363,6 +379,7 @@ header .navlinks{
 	display:block;
 	margin:50px auto;
 	background-color:#a2eae5;
+	border-radius:10px;
 }
 
 .content .resourceblock h1{
@@ -401,6 +418,8 @@ header .navlinks{
 	text-align:center;
 	padding:20px;
 	border-top:3px solid #d3585e;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
 }
 
 .content .resourceblock .fullresourcelist a{
