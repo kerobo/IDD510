@@ -1,0 +1,454 @@
+*, body{
+	margin:0px;
+	padding:0px;
+	font-family:Sintony, Arial;
+}
+
+h1{
+	font-family:Asar;
+	font-size:36px;
+	font-weight:normal;
+}
+
+h2{
+	font-family:Asar;
+	font-size:18px;
+	font-weight:normal;
+}
+
+p{
+	font-size:14px;
+}
+
+a{
+	font-size:14px;
+	color:#000000;
+	text-decoration: none;s
+}
+
+a:hover{
+	font-size:14px;
+	border-bottom:2px solid black;
+}
+
+ul, ol{}
+
+ul li, ol li{}
+
+.wrapper{
+	max-width:700px;
+	display:block;
+	margin:0px auto;
+	width:96%;
+	padding:0px 2%;
+}
+
+
+/* HEADER */
+
+header{
+	background-color:#75f8ce;
+	border-bottom:3px solid #29c090;
+	padding:20px;
+	display:block;
+	margin:0px auto;
+}
+
+header h1{
+	font-size:30px;
+}
+
+header h2{
+	font-size:14px;
+}
+
+header ul{
+	list-style:none;
+}
+
+header ul li{
+	list-style:none;
+	display:inline-block;
+}
+
+header a{
+	color:#000000;
+	text-decoration: none;
+	padding:15px 15px 5px 15px;
+}
+
+header a:hover{
+	color:#000000;
+	bottom-border:5px solid #29c090;
+	padding:15px 15px 5px 15px;
+}
+
+header .headertitle{
+	float:left;
+	line-height: 20px;
+}
+
+header .navlinks{
+	float:right;
+	padding-top:20px;
+}
+
+@media screen and (max-width:770px){
+	header h1{
+		font-size:48px;
+	}
+
+	header h2{
+		font-size:24px;
+	}
+
+	header a{
+		padding:15px 10px 5px 10px;
+	}
+
+	header a:hover{
+		padding:15px 10px 5px 10px;
+	}
+
+	header .headertitle{
+		float:none;
+		text-align:center;
+		line-height:35px;
+	}
+
+	header .navlinks{
+		float:none;
+		text-align:center;
+	}
+}
+
+@media screen and (max-width:600px){
+	header a{
+		padding:15px 5px 0px 5px;
+	}
+
+	header a:hover{
+		padding:15px 5px 0px 5px;
+	}
+}
+
+
+
+/* CONTENT */
+
+.content .searchbar{
+	display:block;
+	margin:50px auto;
+}
+
+.content .searchbar form{
+	text-align:center;
+}
+
+
+
+
+.content .eventsblock{
+	display:block;
+	margin:50px auto;
+	background-color:#fd898e;
+	height:343px;
+}
+
+.content .eventsblock h1{
+	color:#FFFFFF;
+	text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.6);
+	font-size:48px;
+	text-transform:uppercase;
+}
+
+.content .eventsblock h2{
+	color:#FFFFFF;
+	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+.content .eventsblock .eventblockright{
+	float:right;
+	max-width:415px;
+	width:60%;
+	position:relative;
+}
+
+.content .eventsblock .eventblockright img{
+	width:100%;
+}
+
+.content .eventsblock .eventblockright .eventtitledate{
+	position:absolute;
+	left:0;
+	top:45%;
+	width:100%;
+	text-align:center;
+	line-height:40px;
+}
+
+.content .eventsblock .eventblockleft{
+	float:left;
+	width:35%;
+	padding-top:60px;
+	padding-left:25px;
+	line-height:24px;
+}
+
+.content .eventsblock .eventblockleft .eventdescription{
+	max-width:200px;
+}
+
+.content .eventsblock .eventblockleft .moreevents{
+	text-align:right;
+	padding-top:30px;
+	padding-right:25px;
+}
+
+.content .eventsblock a{
+	font-weight:700;
+}
+
+.content .eventsblock a:hover{
+	padding-bottom:5px;
+	border-bottom:3px solid #d3585e;
+}
+
+@media screen and (max-width: 750px){
+	.content .eventsblock{
+		height:auto;
+	}
+
+	.content .eventsblock h1{
+		text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+	}
+
+	.content .eventsblock h2{
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+	}
+
+	.content .eventsblock .eventblockleft{
+		float:none;
+		width:90%;
+		padding:20px 15px;
+		display:block;
+		margin:0px auto;
+	}
+
+	.content .eventsblock .eventblockleft .eventdescription{
+		max-width:700px;
+	}
+	
+	.content .eventsblock .eventblockright{
+		float:none;
+		width:100%;
+		max-width: 700px;
+	}
+
+	.content .eventsblock .eventblockleft .moreevents{
+		padding-right:0px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.content .eventsblock h1{
+		font-size:40px;
+		padding:10px;
+	}
+}
+
+@media screen and (max-width:350px){
+	.content .eventsblock .eventblockright .eventtitledate{
+		top:25%;
+	}
+}
+
+
+
+
+.content .newsblock{
+	display:block;
+	margin:50px auto;
+	background-color:#ffb96e;
+	height:343px;
+}
+
+.content .newsblock h1{
+	padding-left:10px;
+	color:#FFFFFF;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.content .newsblock h2{
+	font-family:Sintony, Arial;
+	font-size:14px;
+	font-weight:700;
+	padding-bottom:10px;
+}
+
+.content .newsblock .newsright{
+	float:right;
+	width:60%;
+	max-width:415px;
+}
+
+.content .newsblock .newsright img{
+	width:100%;
+}
+
+.content .newsblock .newsleft{
+	float:left;
+	width:35%;
+	padding-left:25px;
+	padding-top:25px;
+}
+
+.content .newsblock .newsleft .newscontent{
+	padding-top:10px;
+	line-height:24px;
+}
+
+.content .newsblock .newsleft .morenews{
+	text-align:right;
+	padding-top:30px;
+	padding-right:25px;
+}
+
+.content .newsblock .newsleft a{
+	font-weight:700;
+}
+
+.content .newsblock .newsleft a:hover{
+	padding-bottom:5px;
+	border-bottom:3px solid #e58f32;
+}
+
+@media screen and (max-width: 750px){
+	.content .newsblock{
+		height:auto;
+	}
+
+	.content .newsblock h1{
+		padding:0px;
+		text-align:center;
+	}
+
+	.content .newsblock .newsleft{
+		float:none;
+		padding:0px;
+		padding-bottom:20px;
+		display:block;
+		margin:0px auto;
+		width:90%;
+		max-width:700px;
+	}
+
+	.content .newsblock .newsright{
+		float:none;
+		width:100%;
+		max-width: 700px;
+	}
+
+	.content .newsblock .newsleft .morenews{
+		padding-right:0px;
+	}
+}
+
+
+
+
+
+
+.content .resourceblock{
+	display:block;
+	margin:50px auto;
+	background-color:#a2eae5;
+}
+
+.content .resourceblock h1{
+	color:#FFFFFF;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	padding-left:10px;
+}
+
+.content .resourceblock .townresources{
+	float:left;
+	padding-top:25px;
+	padding-left:25px;
+	width:45%;
+	padding-bottom:20px;
+	line-height:36px;
+	border-right:3px solid #51948f;
+
+}
+
+.content .resourceblock .villageresources{
+	float:right;
+	width:45%;
+	padding-top:25px;
+	padding-bottom:20px;
+	line-height:36px;
+}
+
+.content .resourceblock ul {
+	padding-top:25px;
+	padding-left:50px;
+	list-style-position:inside;
+}
+
+.content .resourceblock .fullresourcelist{
+	background-color:#fd898e;
+	text-align:center;
+	padding:20px;
+	border-top:3px solid #d3585e;
+}
+
+.content .resourceblock .fullresourcelist a{
+	font-weight:700;
+	font-size:18px;
+}
+
+.content .resourceblock .fullresourcelist a:hover{
+	border-bottom:3px solid #d3585e;
+}
+
+@media screen and (max-width:675px){
+	.content .resourceblock h1{
+		padding:0px;
+	}
+
+	.content .resourceblock .townresources{
+		float:none;
+		border-right:0px;
+		border-bottom:3px solid #51948f;
+		width:100%;
+		text-align:center;
+		padding:20px 0px;
+	}
+
+	.content .resourceblock .villageresources{
+		float:none;
+		width:100%;
+		text-align:center;
+		padding:20px 0px;
+	}
+
+	.content .resourceblock ul{
+		padding-top:20px;
+		padding-left:0px;
+	}
+}
+
+
+
+/* FOOTER */
+
+footer{
+	background-color:#75f8ce;
+	border-top:3px solid #29c090;
+	text-align:center;
+}
+
+footer p{
+	padding:35px;
+}
