@@ -1,0 +1,30 @@
+*, body{
+	margin:0px;
+	padding:0px;
+}
+
+header{
+	border:5px solid #000000;
+	height:50px;
+	width:100%;
+}
+
+.col{
+	border:5px solid #000000;
+	float:left;
+	width:30.7%;
+	margin-right:3%;
+	margin-top:15px;
+	margin-bottom:50px;
+}
+
+.col.three{
+	margin-right:0px;
+}
+
+footer{
+	clear:both;
+	border:5px solid #000000;
+	height:50px;
+	width:100%;
+}
