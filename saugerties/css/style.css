@@ -120,6 +120,7 @@ header .searchbar input[type=button]{
 	width:80px;
 	height:30px;
 	color:#FFFFFF;
+	font-family:Montserrat;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4a93a4+0,0b5567+100 */
 	background: #4a93a4; /* Old browsers */
 	background: -moz-linear-gradient(top,  #4a93a4 0%, #0b5567 100%); /* FF3.6-15 */
@@ -383,7 +384,7 @@ header .topnav a:hover{
 }
 
 
-/* COMMUNITY */
+/* ALL INTERIOR */
 
 .interiorpage{
 	background-image:url('../images/backgroundimage.jpg');
@@ -448,6 +449,11 @@ header .topnav a:hover{
 	text-align:center;
 	padding-top:20px;
 }
+
+
+
+
+/* COMMUNITY */
 
 .interiorpage .contentsection.first .moreevents-link{
 	padding:60px 0px;
@@ -597,6 +603,146 @@ header .topnav a:hover{
 .interiorpage .contentsection.third .fullschedule a:hover{
 	background-color:#ffd0cc;
 	border-bottom:none;
+}
+
+
+/* GOV & SERVICES */
+
+.interiorpage .contentsection .moreinfo-link{
+	padding:60px 0px;
+	padding-bottom:40px;
+}
+
+.interiorpage .contentsection .moreinfo-link p{
+	text-align:center;
+}
+
+.interiorpage .contentsection .moreinfo-link a{
+	background-color:#f8a083;
+	padding:15px 25px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.interiorpage .contentsection .moreinfo-link a:hover{
+	background-color:#ffd0cc;
+	border-bottom:none;
+}
+
+.interiorpage .contentsection.first h2{
+	font-size:16px;
+	font-weight:700;
+	text-transform: uppercase;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent{
+	padding:0px 75px;
+	margin-top:30px;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .mostrecent{
+	float:left;
+	max-width:245px;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .mostrecent a{
+	font-size:14px;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .mostrecent a:hover{
+	border-bottom:2px solid #0d4b69;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .mostrecent h3{
+	font-size:14px;
+	font-weight:700;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .mostrecent .boardminutes{
+	margin-top:15px;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .mostrecent .boardminutes ul{
+	margin-left:20px;
+	margin-top:5px;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .nextmeeting{
+	float:left;
+	padding-left:115px;
+	max-width:365px;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .nextmeeting h2{
+	text-transform: none;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .nextmeeting p{
+	margin-top:20px;
+}
+
+.interiorpage .contentsection.first .boardmeetingscontent .nextmeeting a{
+	font-family:Sintony;
+	font-weight:700;
+}
+
+
+
+.interiorpage .contentsection.second .spotlightcontent{
+	padding:0px 50px;
+	margin-top:30px;
+}
+
+.interiorpage .contentsection.second .spotlightcontent .spotlightimage{
+	float:left;
+	max-width:300px;
+}
+
+.interiorpage .contentsection.second .spotlightcontent .spotlightimage img{
+	width:100%;
+}
+
+.interiorpage .contentsection.second .spotlightcontent .spotlighttext{
+	float:left;
+	padding-left:40px;
+	max-width:355px;
+}
+
+.interiorpage .contentsection.second .spotlightcontent .spotlighttext h2{
+	font-size:18px;
+}
+
+.interiorpage .contentsection.second .spotlightcontent .spotlighttext p{
+	margin-top:5px;
+}
+
+
+
+
+.interiorpage .contentsection.third .assessmentcontent{
+	margin-top:30px;
+	padding:0px 50px;
+}
+
+.interiorpage .contentsection.third .assessmentcontent .assessmenttext{
+	float:left;
+	max-width:400px;
+}
+
+.interiorpage .contentsection.third .assessmentcontent .assessorimage{
+	float:left;
+	margin-left:50px;
+	max-width:237px;
+}
+
+.interiorpage .contentsection.third .assessmentcontent .assessorimage img{
+	width:100%;
+}
+
+.interiorpage .contentsection.third .assessmentcontent .assessorimage h2{
+	font-size:16px;
+	text-align:center;
 }
 
 
