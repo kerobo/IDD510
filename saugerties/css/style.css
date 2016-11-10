@@ -495,11 +495,6 @@ header .topnav a:hover{
 	margin-right:0px;
 }
 
-.interiorpage .contentsection.first .upcomingeventsimages .individualevent:hover{
-	border:2px solid #f8a083;
-	box-sizing:border-box;
-}
-
 .interiorpage .contentsection.first .upcomingeventsimages .individualevent img{
 	width:100%;
 	overflow:hidden;
@@ -604,6 +599,84 @@ header .topnav a:hover{
 	background-color:#ffd0cc;
 	border-bottom:none;
 }
+
+
+
+/*EVENTS*/
+
+.interiorpage .contentsection.first .eventscalendar{
+	max-width:700px;
+	display:block;
+	margin:0px auto;
+	margin-top:30px;
+	padding:0px 50px;
+	padding-bottom:30px;
+}
+
+.interiorpage .contentsection.first .eventscalendar table, th, td{
+	border:1px solid #acacac;
+	border-collapse:collapse;
+}
+
+.interiorpage .contentsection.first .eventscalendar th, td{
+	width:100px;
+	text-align:center;
+	vertical-align:top;
+	padding:15px 0px;
+}
+
+.interiorpage .contentsection.first .eventscalendar th{
+	background-color:#0d4b69;
+	padding:15px;
+}
+
+.interiorpage .contentsection.first .eventscalendar h2{
+	color:#FFFFFF;
+	font-weight:normal;
+}
+
+.interiorpage .contentsection.first .eventscalendar a:hover{
+	border-bottom:2px solid #0d4b69;
+}
+
+
+
+
+.interiorpage .contentsection.second .annualeventcontent{
+	max-width:700px;
+	display:block;
+	margin:0px auto;
+	margin-top:30px;
+	padding:0px 50px;
+	padding-bottom:30px;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .individualevent{
+	background-color:#0d4b69;
+	text-align:center;
+	padding:12px;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .individualevent a{
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription{
+	padding:20px;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description{
+	float:left;
+	max-width:300px;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.right{
+	padding-left:50px;
+}
+
+
+
 
 
 /* GOV & SERVICES */
