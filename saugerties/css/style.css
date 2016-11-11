@@ -655,6 +655,7 @@ header .topnav a:hover{
 	background-color:#0d4b69;
 	text-align:center;
 	padding:12px;
+	margin-top:1px;
 }
 
 .interiorpage .contentsection.second .annualeventcontent .individualevent a{
@@ -671,10 +672,92 @@ header .topnav a:hover{
 	max-width:300px;
 }
 
-.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.right{
-	padding-left:50px;
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description h2{
+	font-size:15px;
+	font-weight:normal;
 }
 
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description a{
+	font-family:Sintony;
+	font-size:15px;
+	font-weight:normal;
+	color:#0d4b69;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description a:hover{
+	border-bottom:2px solid #0d4b69;
+	color:#000000;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.left p{
+	line-height:18px;
+	padding-bottom:10px;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.left ul li{
+	margin-left:30px;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.right{
+	padding-left:50px;
+	max-width:300px;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.right img{
+	width:100%;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.right ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.right ul li{
+	list-style:none;
+}
+
+.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.right ul{
+	margin-top:10px;
+}
+
+
+
+
+
+
+
+
+/* EDUCATION */
+
+
+.interiorpage .contentsection.third .collegecontent{
+	padding:30px 0px;
+}
+
+.interiorpage .contentsection.third .collegecontent .row{
+	display:block;
+	margin:0px auto;
+	max-width:700px;
+	padding:0px 50px;
+}
+
+.interiorpage .contentsection.third .collegecontent .row .collegeicon{
+	float:left;
+	max-width:200px;
+	padding-right:50px;
+	padding-bottom:30px;
+}
+
+.interiorpage .contentsection.third .collegecontent .row .collegeicon.last{
+	padding-right:0px;
+}
+
+.interiorpage .contentsection.third .collegecontent .row .collegeicon img{
+	width:100%;
+}
+
+.interiorpage .contentsection.third .collegecontent .row .collegeicon a:hover{
+	border:none;
+}
 
 
 
