@@ -72,6 +72,11 @@ header{
 	background-color:#FFFFFF;
 }
 
+header .headerlogo{
+	float:left;
+	max-width:300px;
+}
+
 header .headerlighthouse{
 	float:left;
 	padding-top:7px;
@@ -154,6 +159,95 @@ header .topnav a:hover{
 	color:#f8a083;
 }
 
+@media screen and (max-width:900px){
+	header .headerlogo{
+		float:none;
+		display:block;
+		margin:0px auto;
+	}
+
+	header .searchbar{
+		clear:both;
+		float:none;
+		display:block;
+		padding-right:0px;
+		margin:0px auto;
+		max-width:350px;
+		text-align:center;
+	}
+
+	header .searchbar input[type=search]{
+		width:250px;
+	}
+
+	header .topnav{
+		float:none;
+		display:block;
+		margin:0px auto;
+		margin-top:15px;
+		text-align:center;
+	}
+}
+
+
+@media screen and (max-width:600px){
+	header{
+		padding-bottom:15px;
+	}
+
+	header .topnav ul{
+		width:100%;
+		padding:0px;
+		margin:0px;
+	}
+
+	header .topnav ul li{
+		width:50%; 
+		float:left;
+		padding:0px;
+	}
+
+	header .topnav ul li:nth-of-type(odd) a{ 
+		border-right:2px solid #FFFFFF;
+		margin:0px;
+	}
+
+	header .topnav ul li a{
+		padding: 8px 5px;
+		background-color:#0d4b69;
+		border-bottom:2px solid #FFFFFF;
+		display: block;
+		margin:0px;
+		color:#FFFFFF;
+	}
+
+	header .topnav ul li a:hover{
+		padding: 8px 5px;
+		background-color:#0d4b69;
+		border-bottom:2px solid #FFFFFF;
+		display: block;
+		margin:0px;
+	}
+}
+
+@media screen and (max-width:450px){
+	header .searchbar{
+		max-width:300px;
+	}
+
+	header .searchbar input[type=search]{
+		width:180px;
+	}
+
+	header .topnav ul li{
+		float:none;
+		width:100%;
+	}
+
+	header .topnav ul li:nth-of-type(odd) a{
+		border-right:0px;
+	}
+}
 
 
 /* CONTENT */
@@ -225,21 +319,21 @@ header .topnav a:hover{
 	float:left;
 }
 
-.homepage .content .upcomingevents .buttonwrapper{
+.homepage .content .upcomingevents .buttonswrapper{
 	width:100%;
-	margin:auto;
+	margin:0px auto;
 	text-align:center;
-	position:relative;
-}
-
-.homepage .content .upcomingevents .herobuttons{
 	position:absolute;
 	z-index:2;
-	margin:auto;
 	top:415px;
 	left:0px;
 	right:0px;
 	bottom:0px;
+
+}
+
+.homepage .content .upcomingevents .herobuttons{
+	margin:auto;
 }
 
 .homepage .content .upcomingevents .herobuttons span{
@@ -249,13 +343,7 @@ header .topnav a:hover{
 }
 
 .homepage .content .upcomingevents .moreeventsbutton{
-	position:absolute;
-	z-index:2;
-	margin:auto;
-	top:490px;
-	left:0px;
-	right:0px;
-	bottom:0px;
+	margin-top:15px;
 }
 
 .homepage .content .upcomingevents .moreeventsbutton a{
@@ -331,7 +419,7 @@ header .topnav a:hover{
 
 
 .homepage .content .seasonalresources{
-	padding-top:35px;
+	padding:35px 0px;
 	display:block;
 	margin:0px auto;
 	background-color:#02323d;
@@ -352,7 +440,7 @@ header .topnav a:hover{
 
 .homepage .content .seasonalresources .resourcecolumn{
 	float:left;
-	width:300px;
+	min-width:300px;
 	margin:50px 0px;
 	margin-right:100px;
 	padding:25px 20px;
@@ -384,6 +472,101 @@ header .topnav a:hover{
 }
 
 
+
+@media screen and (max-width:900px){
+	.homepage .content .upcomingevents .cycle-slideshow .individualevent .eventtext{
+		top:140px;
+	}
+
+	.homepage .content .upcomingevents .buttonswrapper{
+		top:340px;
+	}
+
+
+	.homepage .content .latestnews{
+		max-width:650px;
+	}
+
+	.homepage .content .latestnews .newscolumn{
+		max-width:275px;
+		margin-right:50px;
+	}
+
+	.homepage .content .latestnews .newscolumn.right{
+		margin-right:0px;
+	}
+
+
+	.homepage .content .seasonalresources .wrapper{
+		max-width:550px;
+	}
+
+	.homepage .content .seasonalresources .resourcecolumn{
+		max-width:500px;
+		float:none;
+		display:block;
+		margin:20px auto;
+	}
+}
+
+
+@media screen and (max-width:750px){
+	.homepage .content .upcomingevents .cycle-slideshow .individualevent .eventtext{
+		top:75px;
+	}
+
+	.homepage .content .upcomingevents .buttonswrapper{
+		top:250px;
+	}
+
+	.homepage .content .latestnews{
+		max-width:550px;
+	}
+
+	.homepage .content .latestnews .newscolumn{
+		max-width:500px;
+		float:none;
+		display:block;
+		margin:0px auto;
+		margin-top:20px;
+		padding:0px 25px;
+	}
+}
+
+
+@media screen and (max-width:600px){
+	.homepage .content .upcomingevents .cycle-slideshow .individualevent .eventtext {
+		top:25px;
+	}
+
+	.homepage .content .upcomingevents .buttonswrapper{
+		top:200px;
+	}
+}
+
+@media screen and (max-width:450px){
+	.homepage .content .upcomingevents .cycle-slideshow .individualevent .eventtext p{
+		display:none;
+	}
+
+	.homepage .content .upcomingevents .buttonswrapper{
+		top:100px;
+	}
+
+	.homepage .content .seasonalresources .resourcecolumn{
+		min-width:0;
+	}
+
+	.homepage .content .seasonalresources .resourcecolumn h2{
+		text-align:center;
+	}
+}
+
+
+
+
+
+
 /* ALL INTERIOR */
 
 .interiorpage{
@@ -402,6 +585,8 @@ header .topnav a:hover{
 
 .interiorpage .content .interiornav .wrapper{
 	max-width:1024px;
+	display:block;
+	margin:0px auto;
 }
 
 .interiorpage .content .interiornav ul{
@@ -450,41 +635,57 @@ header .topnav a:hover{
 	padding-top:20px;
 }
 
+@media screen and (max-width:900px){
+	.interiorpage .content .interiornav ul{
+		float:none;
+		text-align:center;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .content .interiornav{
+		padding:10px 0px;
+	}
+
+	.interiorpage .content .interiornav ul{
+		width:100%;
+		padding:0px;
+	}
+
+	.interiorpage .content .interiornav ul li{
+		width:33%; 
+		float:left;
+		margin:10px 0px;
+	}
+
+	.interiorpage .content .interiornav ul li a{
+		font-size:16px;
+		padding-bottom:0px;
+	}
+
+	.interiorpage .content .interiornav ul li a:hover{
+		padding-bottom:0px;
+		border-bottom:3px solid #FFFFFF;
+		font-size:16px;
+	}
+}
+
 
 
 
 /* COMMUNITY */
 
-.interiorpage .contentsection.first .moreevents-link{
-	padding:60px 0px;
-	padding-bottom:40px;
-}
-
-.interiorpage .contentsection.first .moreevents-link p{
-	text-align:center;
-}
-
-.interiorpage .contentsection.first .moreevents-link a{
-	background-color:#f8a083;
-	padding:15px 25px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	border-radius:5px;
-}
-
-.interiorpage .contentsection.first .moreevents-link a:hover{
-	background-color:#ffd0cc;
-	border-bottom:none;
-}
-
 .interiorpage .contentsection.first .upcomingeventsimages{
+	max-width:800px;
 	padding:0px 50px;
+	display:block;
+	margin:0px auto;
+	margin-top:30px;
 }
 
 .interiorpage .contentsection.first .upcomingeventsimages .individualevent{
 	float:left;
 	margin-right:50px;
-	margin-top:30px;
 	position:relative;
 	max-width:200px;
 	max-height:135px;
@@ -528,51 +729,95 @@ header .topnav a:hover{
 	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.75);
 }
 
-.interiorpage .contentsection.second .eventdescription{
-	max-width:700px;
+.interiorpage .contentsection.first .moreevents-link{
+	padding:60px 0px;
+	padding-bottom:40px;
+}
+
+.interiorpage .contentsection.first .moreevents-link p{
+	text-align:center;
+}
+
+.interiorpage .contentsection.first .moreevents-link a{
+	background-color:#f8a083;
+	padding:15px 25px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.interiorpage .contentsection.first .moreevents-link a:hover{
+	background-color:#ffd0cc;
+	border-bottom:none;
+}
+
+
+
+.interiorpage .contentsection.second .recenteventscontent{
+	max-width:800px;
+	padding:0px 50px;
 	display:block;
 	margin:0px auto;
+}
+
+.interiorpage .contentsection.second .recenteventscontent .eventdescription{
 	padding:30px 0px;
 }
 
-.interiorpage .contentsection.second .eventdescription h2{
+.interiorpage .contentsection.second .recenteventscontent .eventdescription h2{
 	font-size:16px;
 	font-weight:700;
 }
 
-.interiorpage .contentsection.second .eventdescription p{
+.interiorpage .contentsection.second .recenteventscontent .eventdescription p{
 	font-size:14px;
 	line-height:1;
 	padding-top:5px;
 }
 
-.interiorpage .contentsection.second .eventimage img{
+.interiorpage .contentsection.second .recenteventscontent .eventimage{
 	max-width:700px;
-	display:block;
-	margin:0px auto;
 	margin-top:30px;
 }
 
+.interiorpage .contentsection.second .recenteventscontent .eventimage img{
+	width:100%;
+}
 
-.interiorpage .contentsection.third .programdescription{
+
+
+.interiorpage .contentsection.third .tv23content{
+	max-width:800px;
+	padding:0px 50px;
+	display:block;
+	margin:0px auto;
+}
+
+.interiorpage .contentsection.third .tv23content .programdescription{
 	float:left;
 	max-width:150px;
 	margin-top:30px;
-	margin-left:90px;
+	margin-left:75px;
+	padding-left:15px;
+	border-left:5px dotted #0d4b69;
 }
 
-.interiorpage .contentsection.third .programdescription h2{
+.interiorpage .contentsection.third .tv23content .programdescription.first{
+	margin-left:25px;
+}
+
+.interiorpage .contentsection.third .tv23content .programdescription h2{
 	color:#156287;
 	font-size:20px;
 	font-weight:700;
 }
 
-.interiorpage .contentsection.third .programdescription h3{
+.interiorpage .contentsection.third .tv23content .programdescription h3{
 	font-size:18px;
 	font-weight:700;
 }
 
-.interiorpage .contentsection.third .programdescription p{
+.interiorpage .contentsection.third .tv23content .programdescription p{
 	font-size:14px;
 	text-align:left;
 	padding-top:30px;
@@ -600,6 +845,46 @@ header .topnav a:hover{
 	border-bottom:none;
 }
 
+@media screen and (max-width:850px){
+	.interiorpage .contentsection.first .upcomingeventsimages .individualevent{
+		max-width:500px;
+		float:none;
+		display:block;
+		margin:0px auto;
+		margin-bottom:20px;
+	}
+
+	.interiorpage .contentsection.first .upcomingeventsimages .individualevent.third{
+		margin:0px auto;
+	}
+
+	.interiorpage .contentsection.third .tv23content .programdescription{
+		float:none;
+		max-width:600px;
+		display:block;
+		margin:0px auto;
+		margin-top:30px;
+		padding-bottom:15px;
+		border-left:0px;
+		border-bottom:5px dotted #0d4b69;
+	}
+
+	.interiorpage .contentsection.third .tv23content .programdescription.first{
+		margin:0px auto;
+		margin-top:30px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .contentsection.first .upcomingeventsimages{
+		padding:0px 25px;
+	}
+
+	.interiorpage .contentsection.second .recenteventscontent{
+		padding:0px 25px;
+	}
+}
+
 
 
 /*EVENTS*/
@@ -613,29 +898,39 @@ header .topnav a:hover{
 	padding-bottom:30px;
 }
 
-.interiorpage .contentsection.first .eventscalendar table, th, td{
-	border:1px solid #acacac;
-	border-collapse:collapse;
+.interiorpage .contentsection.first .eventscalendar .dayofweek{
+	border:2px solid #0d4b69;
+	padding:10px 0px;
 }
 
-.interiorpage .contentsection.first .eventscalendar th, td{
-	width:100px;
-	text-align:center;
-	vertical-align:top;
-	padding:15px 0px;
-}
-
-.interiorpage .contentsection.first .eventscalendar th{
+.interiorpage .contentsection.first .eventscalendar .dayofweek .dayname{
+	float:left;
 	background-color:#0d4b69;
 	padding:15px;
 }
 
-.interiorpage .contentsection.first .eventscalendar h2{
+.interiorpage .contentsection.first .eventscalendar .dayofweek .dayname h2{
 	color:#FFFFFF;
 	font-weight:normal;
+	width:100px;
+	text-align:center;
 }
 
-.interiorpage .contentsection.first .eventscalendar a:hover{
+.interiorpage .contentsection.first .eventscalendar .dayofweek .listofevents{
+	float:left;
+	margin-left:50px;
+	padding:15px;
+}
+
+.interiorpage .contentsection.first .eventscalendar .dayofweek .listofevents ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .eventscalendar .dayofweek .listofevents ul li{
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .eventscalendar .dayofweek .listofevents a:hover{
 	border-bottom:2px solid #0d4b69;
 }
 
@@ -719,7 +1014,50 @@ header .topnav a:hover{
 	margin-top:10px;
 }
 
+@media screen and (max-width:900px){
+	.interiorpage .contentsection.second .annualeventcontent .eventdescription .description{
+		float:none;
+		max-width:700px;
+	}
 
+	.interiorpage .contentsection.second .annualeventcontent .eventdescription .description.right{
+		padding:0px;
+		margin-top:20px;
+		max-width:700px;
+	}
+}
+
+@media screen and (max-width:800px){
+	.interiorpage .contentsection.first .eventscalendar .dayofweek{
+		padding:0px;
+	}
+
+	.interiorpage .contentsection.first .eventscalendar .dayofweek .dayname{
+		float:none;
+		text-align:center;
+	}
+
+	.interiorpage .contentsection.first .eventscalendar .dayofweek .dayname h2{
+		width:100%;
+	}
+
+	.interiorpage .contentsection.first .eventscalendar .dayofweek .listofevents{
+		float:none;
+		text-align:center;
+		margin-left:0px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .contentsection.first .eventscalendar{
+		padding:0px 10px;
+		padding-bottom:30px;
+	}
+	.interiorpage .contentsection.second .annualeventcontent{
+		padding:0px 10px;
+		padding-bottom:30px;
+	}
+}
 
 
 
