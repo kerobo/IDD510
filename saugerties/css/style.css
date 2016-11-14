@@ -658,12 +658,12 @@ header .topnav a:hover{
 		margin:10px 0px;
 	}
 
-	.interiorpage .content .interiornav ul li a{
+	.interiorpage .content .interiornav a{
 		font-size:16px;
 		padding-bottom:0px;
 	}
 
-	.interiorpage .content .interiornav ul li a:hover{
+	.interiorpage .content .interiornav a:hover{
 		padding-bottom:0px;
 		border-bottom:3px solid #FFFFFF;
 		font-size:16px;
@@ -674,8 +674,9 @@ header .topnav a:hover{
 
 /* NEWS */
 
-.interiorpage .content .interiornav p{
+.interiorpage .content .interiornav.newspage p{
 	color:#FFFFFF;
+	font-size:14px;
 	font-family:Montserrat;
 }
 
@@ -730,6 +731,27 @@ header .topnav a:hover{
 }
 
 
+@media screen and (max-width:900px){
+	.interiorpage .content .interiornav.newspage ul.itemsperpage{
+		padding-top:0px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .content .interiornav.newspage p{
+		font-size:16px;
+	}
+
+	.interiorpage .content .interiornav.newspage ul{
+		
+	}
+
+	.interiorpage .content .interiornav.newspage ul li{
+		width:initial;
+		display:inline-block;
+		margin-right:20px;
+	}
+}
 
 
 
@@ -1752,9 +1774,12 @@ header .topnav a:hover{
 	list-style:none;
 }
 
+.interiorpage .contentsection.first .boardscontent .boarddescription .description.left ul{
+	margin-top:10px;
+}
+
 .interiorpage .contentsection.first .boardscontent .boarddescription .description.left p{
 	line-height:18px;
-	padding-bottom:10px;
 }
 
 .interiorpage .contentsection.first .boardscontent .boarddescription .description.right{
@@ -1769,7 +1794,32 @@ header .topnav a:hover{
 	margin-top:10px;
 }
 
+@media screen and (max-width:800px){
+	.interiorpage .contentsection.first .boardscontent .boarddescription .description{
+		float:none;
+		max-width:700px;
+	}
 
+	.interiorpage .contentsection.first .boardscontent .boarddescription .description.left{
+		display:block;
+		margin:0px auto;
+		max-width:300px;
+	}
+
+	.interiorpage .contentsection.first .boardscontent .boarddescription .description.right{
+		display:block;
+		margin:0px auto;
+		padding:0px;
+		margin-top:20px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .contentsection.first .boardscontent{
+		padding:0px 20px;
+		padding-bottom:30px;
+	}
+}
 
 
 /* FOOTER */
