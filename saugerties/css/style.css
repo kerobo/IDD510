@@ -672,6 +672,68 @@ header .topnav a:hover{
 
 
 
+/* NEWS */
+
+.interiorpage .content .interiornav p{
+	color:#FFFFFF;
+	font-family:Montserrat;
+}
+
+.interiorpage .contentsection .newsitemcontent{
+	max-width:800px;
+	padding:30px 50px;
+}
+
+.interiorpage .contentsection .newsitemcontent .newsimage{
+	float:left;
+	max-width:150px;
+	padding-bottom:30px;
+}
+
+.interiorpage .contentsection .newsitemcontent .newsimage img{
+	width:100%;
+}
+
+.interiorpage .contentsection .newsitemcontent .newstext{
+	float:left;
+	margin-left:75px;
+	max-width:400px;
+	padding-bottom:20px;
+}
+
+.interiorpage .contentsection .newsitemcontent .newstext h2{
+	font-size:18px;
+	margin-bottom:30px;
+}
+
+.interiorpage .contentsection .newsitemcontent .newstext p{
+	margin-bottom:10px;
+}
+
+.interiorpage .contentsection .newsitemcontent .readmore-link{
+	padding:40px 0px;
+	padding-bottom:30px;
+	float:right;
+}
+
+.interiorpage .contentsection .newsitemcontent .readmore-link a{
+	background-color:#f8a083;
+	padding:15px 25px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.interiorpage .contentsection .newsitemcontent .readmore-link a:hover{
+	background-color:#ffd0cc;
+	border-bottom:none;
+}
+
+
+
+
+
+
 
 /* COMMUNITY */
 
@@ -883,6 +945,10 @@ header .topnav a:hover{
 	.interiorpage .contentsection.second .recenteventscontent{
 		padding:0px 25px;
 	}
+
+	.interiorpage .contentsection.third .tv23content{
+		padding:0px 25px;
+	}
 }
 
 
@@ -1066,6 +1132,179 @@ header .topnav a:hover{
 
 /* EDUCATION */
 
+.interiorpage .contentsection.first .schooldistrictcontent{
+	max-width:700px;
+	display:block;
+	margin:0px auto;
+	margin-top:30px;
+	padding:0px 50px;
+	padding-bottom:30px;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schoolname{
+	background-color:#0d4b69;
+	text-align:center;
+	padding:12px;
+	margin-top:1px;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schoolname a{
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription{
+	padding:20px;
+	max-width:500px;
+	display:block;
+	margin:0px auto;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description{
+	float:left;
+	max-width:300px;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description h2{
+	font-size:15px;
+	font-weight:normal;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description a{
+	font-family:Sintony;
+	font-size:15px;
+	font-weight:normal;
+	color:#0d4b69;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description a:hover{
+	border-bottom:2px solid #0d4b69;
+	color:#000000;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description ul li{
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description.left p{
+	line-height:18px;
+	padding-bottom:10px;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description.right{
+	padding-left:75px;
+	max-width:300px;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description.right ul{
+	margin-top:10px;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description.right .website-link{
+	padding-top:60px;
+	padding-bottom:40px;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description.right .website-link a{
+	background-color:#f8a083;
+	padding:15px 25px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description.right .website-link a:hover{
+	background-color:#ffd0cc;
+	border-bottom:none;
+}
+
+
+
+
+.interiorpage .contentsection.second .lifespringsubtitle h2{
+	text-align:center;
+	color:#02323d;
+	font-size:18px;
+}
+
+.interiorpage .contentsection.second .lifespringcontent{
+	max-width:800px;
+	padding:30px 50px;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description{
+	float:left;
+	max-width:300px;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description a{
+	font-family:Sintony;
+	font-size:15px;
+	font-weight:normal;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description a:hover{
+	border-bottom:2px solid #0d4b69;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description ul li{
+	list-style:none;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description.left p{
+	line-height:18px;
+	padding-bottom:10px;
+	font-size:15px;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description.right{
+	padding-left:75px;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description.right h3{
+	font-size:15px;
+	font-weight:normal;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description.right p{
+	line-height:18px;
+	font-size:15px;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description.right img{
+	width:100%;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description.right .website-link{
+	padding-top:60px;
+	padding-bottom:40px;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description.right .website-link a{
+	background-color:#f8a083;
+	padding:15px 25px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	font-family:Montserrat;
+	font-size:16px;
+}
+
+.interiorpage .contentsection.second .lifespringcontent .description.right .website-link a:hover{
+	background-color:#ffd0cc;
+	border-bottom:none;
+}
+
+
+
 
 .interiorpage .contentsection.third .collegecontent{
 	padding:30px 0px;
@@ -1074,7 +1313,7 @@ header .topnav a:hover{
 .interiorpage .contentsection.third .collegecontent .row{
 	display:block;
 	margin:0px auto;
-	max-width:700px;
+	max-width:800px;
 	padding:0px 50px;
 }
 
@@ -1096,6 +1335,95 @@ header .topnav a:hover{
 .interiorpage .contentsection.third .collegecontent .row .collegeicon a:hover{
 	border:none;
 }
+
+
+
+@media screen and (max-width:850px){
+	.interiorpage .contentsection.second .lifespringsubtitle{
+		padding:0px 50px;
+	}
+
+	.interiorpage .contentsection.second .lifespringcontent .description{
+		float:none;
+		max-width:700px;
+	}
+
+	.interiorpage .contentsection.second .lifespringcontent .description.right{
+		padding:0px;
+		margin-top:20px;
+	}
+
+	.interiorpage .contentsection.second .lifespringcontent .description.right .website-link{
+		text-align:center;
+	}
+
+	.interiorpage .contentsection.third .collegecontent .row .collegeicon{
+		padding-right:25px;
+	}
+
+	.interiorpage .contentsection.third .collegecontent .row .collegeicon.last{
+		padding-right:0px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .contentsection.first .schooldistrictcontent{
+		padding:0px 25px;
+		padding-bottom:30px;
+	}
+
+	.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description{
+		float:none;
+		max-width:500px;
+	}
+
+	.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description.right{
+		padding:0px;
+		margin-top:20px;
+		max-width:500px;
+	}
+
+	.interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description.right .website-link p{		display:block;
+		text-align:center;
+	}
+
+	.interiorpage .contentsection.second .lifespringsubtitle{
+		padding:0px 40px;
+	}
+
+	.interiorpage .contentsection.second .lifespringcontent{
+		padding:30px 25px;
+	}
+
+	.interiorpage .contentsection.second .lifespringcontent .description{
+		max-width:500px;
+	}
+
+	.interiorpage .contentsection.second .lifespringcontent .description.left p{
+		font-size:16px;
+	}
+
+	.interiorpage .contentsection.second .lifespringcontent .description.right p{
+		font-size:16px;
+	}
+
+	.interiorpage .contentsection.second .lifespringcontent .description.right h3{
+		font-size:16px;
+	}
+
+	.interiorpage .contentsection.first .collegecontent .row{
+		padding:0px 25px;
+	}
+
+	.interiorpage .contentsection.third .collegecontent .row .collegeicon{
+		float:none;
+		max-width:300px;
+		display:block;
+		margin:0px auto;
+		padding-right:0px;
+	}
+}
+
 
 
 
@@ -1124,7 +1452,7 @@ header .topnav a:hover{
 	border-bottom:none;
 }
 
-.interiorpage .contentsection.first h2{
+.interiorpage .contentsection.first .boardmeetingscontent h2{
 	font-size:16px;
 	font-weight:700;
 	text-transform: uppercase;
@@ -1238,6 +1566,210 @@ header .topnav a:hover{
 	font-size:16px;
 	text-align:center;
 }
+
+
+@media screen and (max-width:850px){
+	.interiorpage .contentsection.first .boardmeetingscontent h2{
+		font-size:20px;
+		text-align:center;
+	}
+
+	.interiorpage .contentsection.first .boardmeetingscontent .mostrecent{
+		float:none;
+		max-width:500px;
+		display:block;
+		margin:0px auto;
+	}
+
+	.interiorpage .contentsection.first .boardmeetingscontent .mostrecent h3{
+		font-size:18px;
+	}
+
+	.interiorpage .contentsection.first .boardmeetingscontent .mostrecent a{
+		font-size:16px;
+	}
+
+	.interiorpage .contentsection.first .boardmeetingscontent .mostrecent .boardminutes.town{
+		float:left;
+	}
+
+	.interiorpage .contentsection.first .boardmeetingscontent .mostrecent .boardminutes.village{
+		float:left;
+		margin-left:25px;
+	}
+
+	.interiorpage .contentsection.first .boardmeetingscontent .nextmeeting{
+		float:none;
+		clear:both;
+		max-width:400px;
+		display:block;
+		margin:0px auto;
+		padding-left:0px;
+		padding-top:30px;
+	}
+
+	.interiorpage .contentsection.second .spotlightcontent .spotlightimage{
+		float:none;
+		max-width:700px;
+	}
+
+	.interiorpage .contentsection.second .spotlightcontent .spotlighttext{
+		float:none;
+		padding:0px;
+		max-width:700px;
+		margin-top:20px;
+	}
+
+	.interiorpage .contentsection.third .assessmentcontent .assessmenttext{
+		float:none;
+		max-width:700px;
+	}
+
+	.interiorpage .contentsection.third .assessmentcontent .assessorimage{
+		float:none; 
+		display:block;
+		margin:0px auto;
+		margin-top:30px;
+		max-width:500px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .contentsection.first .boardmeetingscontent{
+		padding:0px 25px;
+	}
+
+	.interiorpage .contentsection.first .boardmeetingscontent .mostrecent .boardminutes.town{
+		float:none;
+		display:block;
+		margin:0px auto;
+		margin-top:20px;
+		max-width:200px;
+	}
+
+	.interiorpage .contentsection.first .boardmeetingscontent .mostrecent .boardminutes.village{
+		float:none;
+		display:block;
+		margin:0px auto;
+		margin-top:20px;
+		max-width:200px;
+	}
+
+	.interiorpage .contentsection.second .spotlightcontent{
+		padding:0px 25px;
+	}
+
+	.interiorpage .contentsection.third .assessmentcontent{
+		padding:0px 25px;
+	}
+}
+
+
+
+
+/* BOARDS */
+
+.interiorpage .contentsection.first .boardsfilter{
+	max-width:700px;
+	text-align:center;
+}
+
+.interiorpage .contentsection.first .boardsfilter ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .boardsfilter ul li{
+	list-style:none;
+	display:inline-block;
+	margin-left:25px;
+}
+
+.interiorpage .contentsection.first .boardsfilter h1{
+	font-size:16px;
+	text-transform:none;
+}
+
+.interiorpage .contentsection.first .boardsfilter a{
+	color:#02323d;
+	font-weight:normal;
+}
+
+.interiorpage .contentsection.first .boardscontent{
+	max-width:700px;
+	display:block;
+	margin:0px auto;
+	margin-top:30px;
+	padding:0px 50px;
+	padding-bottom:30px;
+}
+
+.interiorpage .contentsection.first .boardscontent .boardname{
+	background-color:#0d4b69;
+	text-align:center;
+	padding:12px;
+	margin-top:1px;
+}
+
+.interiorpage .contentsection.first .boardscontent .boardname a{
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription{
+	padding:20px;
+	max-width:700px;
+	display:block;
+	margin:0px auto;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description{
+	float:left;
+	max-width:300px;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description h2{
+	font-size:16px;
+	font-weight:normal;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description a{
+	font-family:Sintony;
+	font-size:16px;
+	font-weight:normal;
+	color:#0d4b69;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description a:hover{
+	border-bottom:2px solid #0d4b69;
+	color:#000000;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description ul li{
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description.left p{
+	line-height:18px;
+	padding-bottom:10px;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description.right{
+	padding-left:50px;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description.right ul{
+	margin-top:10px;
+}
+
+.interiorpage .contentsection.first .boardscontent .boarddescription .description.right p{
+	margin-top:10px;
+}
+
+
 
 
 /* FOOTER */
