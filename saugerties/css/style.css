@@ -66,6 +66,10 @@ input:focus {
     outline: none;
 }
 
+textarea:focus {
+    outline: none;
+}
+
 /* HEADER */
 
 header{
@@ -1820,6 +1824,129 @@ header .topnav a:hover{
 		padding-bottom:30px;
 	}
 }
+
+
+
+
+
+/* CONTACT */
+
+.interiorpage .contentsection.first .contactcontent{
+	max-width:700px;
+	padding:30px 50px;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform{
+	float:left;
+	max-width:350px;
+	padding-bottom:30px;
+	text-align:right;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform label{
+	font-family:Montserrat;
+	font-size:16px;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform select{
+	width:265px;
+	height:30px;
+	margin-bottom:10px;
+	border:2px solid #d6d6d6;
+	font-family:Montserrat;
+	font-size:16px;
+	background-image:(url'../images/dropdown_arrow.png') no-repeat right center;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform select:focus{
+	border:2px solid #636363;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform option{
+	font-family:Montserrat;
+	font-size:16px;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform input[type="text"]{
+	width:265px;
+	height:30px;
+	border:2px solid #d6d6d6;
+	margin:10px 0px;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform input[type="text"]:focus{
+	border:2px solid #636363;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform textarea{
+	width:265px;
+	height:150px;
+	margin-top:10px;
+	border:2px solid #d6d6d6;
+	resize:none;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform textarea:focus{
+	border:2px solid #636363;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactform input[type="button"]{
+	background-color:#f8a083;
+	border:none;
+	margin-top:30px;
+	padding:15px 25px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	font-family:Montserrat;
+	font-size:16px;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactinfo{
+	float:left;
+	max-width:270px;
+	margin-left:50px;
+	padding-bottom:30px;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactinfo h2{
+	font-size:16px;
+	font-weight:normal;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactinfo ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactinfo ul li{
+	list-style:none;
+}
+
+
+.interiorpage .contentsection.first .contactcontent .contactinfo .contactreveal{
+	padding:10px 30px 50px 10px;
+	background-color:#cde5f1;
+	display:block;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactinfo #TownClerk{
+	visibility:hidden;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactinfo .townvillageinfo{
+	padding-left:10px;
+}
+
+.interiorpage .contentsection.first .contactcontent .contactinfo .townvillageinfo ul{
+	margin-top:20px;
+}
+
+
+
+
+
+
+
 
 
 /* FOOTER */
