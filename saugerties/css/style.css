@@ -676,6 +676,8 @@ header .topnav a:hover{
 
 
 
+
+
 /* NEWS */
 
 .interiorpage .content .interiornav.newspage p{
@@ -734,6 +736,27 @@ header .topnav a:hover{
 	border-bottom:none;
 }
 
+
+
+.interiorpage .contentsection.newsitem {
+	margin-top:91px;
+}
+
+.interiorpage .contentsection .newsitemcontent .newsimage .newstags{
+	margin-top:30px;
+}
+
+.interiorpage .contentsection .newsitemcontent .newsimage .newstags ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection .newsitemcontent .newsimage .newstags ul li{
+	list-style:none;
+}
+
+.interiorpage .contentsection .newsitemcontent .newsimage .newstags h2{
+	font-size:16px;
+}
 
 @media screen and (max-width:900px){
 	.interiorpage .content .interiornav.newspage ul.itemsperpage{
@@ -1155,6 +1178,144 @@ header .topnav a:hover{
 
 
 
+/* GROUPS */
+
+.interiorpage .contentsection.first .groupsfilter{
+	max-width:700px;
+	text-align:center;
+}
+
+.interiorpage .contentsection.first .groupsfilter ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .groupsfilter ul li{
+	list-style:none;
+	display:inline-block;
+	margin-left:25px;
+}
+
+.interiorpage .contentsection.first .groupsfilter h1{
+	font-size:16px;
+	text-transform:none;
+}
+
+.interiorpage .contentsection.first .groupsfilter a{
+	color:#02323d;
+	font-weight:normal;
+}
+
+.interiorpage .contentsection.first .groupscontent{
+	max-width:700px;
+	display:block;
+	margin:0px auto;
+	margin-top:30px;
+	padding:0px 50px;
+	padding-bottom:30px;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupname{
+	background-color:#0d4b69;
+	text-align:center;
+	padding:12px;
+	margin-top:1px;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupname a{
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription{
+	padding:20px;
+	max-width:700px;
+	display:block;
+	margin:0px auto;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description{
+	float:left;
+	max-width:300px;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description h2{
+	font-size:16px;
+	font-weight:normal;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description a{
+	font-family:Sintony;
+	font-size:16px;
+	font-weight:normal;
+	color:#0d4b69;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description a:hover{
+	border-bottom:2px solid #0d4b69;
+	color:#000000;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description.left ul{
+	margin-top:10px;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description.left p{
+	line-height:18px;
+	padding-bottom:10px;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description.left ol, ul{
+	margin-left:30px;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description.right{
+	padding-left:50px;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description.right ul{
+	margin-top:10px;
+	list-style:none;
+}
+
+.interiorpage .contentsection.first .groupscontent .groupdescription .description.right ul li{
+	list-style:none;
+}
+
+
+
+@media screen and (max-width:800px){
+	.interiorpage .contentsection.first .groupscontent .groupdescription .description{
+		float:none;
+		max-width:700px;
+	}
+
+	.interiorpage .contentsection.first .groupscontent .groupdescription .description.left{
+		display:block;
+		margin:0px auto;
+		max-width:300px;
+	}
+
+	.interiorpage .contentsection.first .groupscontent .groupdescription .description.right{
+		display:block;
+		margin:0px auto;
+		padding:0px;
+		margin-top:20px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .contentsection.first .groupscontent{
+		padding:0px 20px;
+		padding-bottom:30px;
+	}
+}
+
+
+
+
+
+
+
 
 /* EDUCATION */
 
@@ -1241,6 +1402,9 @@ header .topnav a:hover{
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	border-radius:5px;
+	color:#000000;
+	font-family:Montserrat;
+	font-size:16px;
 }
 
 .interiorpage .contentsection.first .schooldistrictcontent .schooldescription .description.right .website-link a:hover{
@@ -1829,26 +1993,33 @@ header .topnav a:hover{
 
 
 
+
+
+
 /* CONTACT */
 
-.interiorpage .contentsection.first .contactcontent{
+.interiorpage .contentsection.contact {
+	margin-top:91px;
+}
+
+.interiorpage .contentsection .contactcontent{
 	max-width:700px;
 	padding:30px 50px;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform{
+.interiorpage .contentsection .contactcontent .contactform{
 	float:left;
 	max-width:350px;
 	padding-bottom:30px;
 	text-align:right;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform label{
+.interiorpage .contentsection .contactcontent .contactform label{
 	font-family:Montserrat;
 	font-size:16px;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform select{
+.interiorpage .contentsection .contactcontent .contactform select{
 	width:265px;
 	height:30px;
 	margin-bottom:10px;
@@ -1858,27 +2029,27 @@ header .topnav a:hover{
 	background-image:(url'../images/dropdown_arrow.png') no-repeat right center;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform select:focus{
+.interiorpage .contentsection .contactcontent .contactform select:focus{
 	border:2px solid #636363;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform option{
+.interiorpage .contentsection .contactcontent .contactform option{
 	font-family:Montserrat;
 	font-size:16px;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform input[type="text"]{
+.interiorpage .contentsection .contactcontent .contactform input[type="text"]{
 	width:265px;
 	height:30px;
 	border:2px solid #d6d6d6;
 	margin:10px 0px;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform input[type="text"]:focus{
+.interiorpage .contentsection .contactcontent .contactform input[type="text"]:focus{
 	border:2px solid #636363;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform textarea{
+.interiorpage .contentsection .contactcontent .contactform textarea{
 	width:265px;
 	height:150px;
 	margin-top:10px;
@@ -1886,11 +2057,11 @@ header .topnav a:hover{
 	resize:none;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform textarea:focus{
+.interiorpage .contentsection .contactcontent .contactform textarea:focus{
 	border:2px solid #636363;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactform input[type="button"]{
+.interiorpage .contentsection .contactcontent .contactform input[type="button"]{
 	background-color:#f8a083;
 	border:none;
 	margin-top:30px;
@@ -1902,50 +2073,46 @@ header .topnav a:hover{
 	font-size:16px;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactinfo{
+.interiorpage .contentsection .contactcontent .contactinfo{
 	float:left;
 	max-width:270px;
 	margin-left:50px;
 	padding-bottom:30px;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactinfo h2{
+.interiorpage .contentsection .contactcontent .contactinfo h2{
 	font-size:16px;
 	font-weight:normal;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactinfo ul{
+.interiorpage .contentsection .contactcontent .contactinfo ul{
 	list-style:none;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactinfo ul li{
+.interiorpage .contentsection .contactcontent .contactinfo ul li{
 	list-style:none;
 }
 
 
-.interiorpage .contentsection.first .contactcontent .contactinfo .contactreveal{
+.interiorpage .contentsection .contactcontent .contactinfo #contactreveal{
 	padding:10px 30px 50px 10px;
 	background-color:#cde5f1;
 	display:block;
+	width:270px;
+	height:100px;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactinfo #TownClerk{
-	visibility:hidden;
-}
-
-.interiorpage .contentsection.first .contactcontent .contactinfo .townvillageinfo{
+.interiorpage .contentsection .contactcontent .contactinfo .townvillageinfo{
 	padding-left:10px;
 }
 
-.interiorpage .contentsection.first .contactcontent .contactinfo .townvillageinfo ul{
+.interiorpage .contentsection .contactcontent .contactinfo .townvillageinfo ul{
 	margin-top:20px;
 }
 
-
-
-
-
-
+#TownClerk, #TownSupervisor, #TownSupervisorSecretary, #DeputySupervisor, #TownBoard01, #TownBoard02, #TownBoard03, #TownAccountant, #BuildingInspector, #PlanningBoardSecretary, #Webmaster, #VillageClerk, #VillageTreasurer, #WaterDepartment, #EyalSaad, #SpecialAssignments, #VillageHistorian{
+	display:none;
+}
 
 
 
