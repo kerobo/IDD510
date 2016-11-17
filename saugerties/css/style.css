@@ -160,7 +160,7 @@ header .topnav a{
 }
 
 header .topnav a:hover{
-	color:#f8a083;
+	color:#CB4421;
 }
 
 @media screen and (max-width:900px){
@@ -612,7 +612,7 @@ header .topnav a:hover{
 }
 
 .interiorpage .content .interiornav a:hover{
-	color:#ffd0cc;
+	color:#f8a083;
 	font-size:14px;
 	border-bottom:4px solid #FFFFFF;
 	padding-bottom:12px;
@@ -910,7 +910,7 @@ header .topnav a:hover{
 	margin-top:30px;
 	margin-left:75px;
 	padding-left:15px;
-	border-left:5px dotted #0d4b69;
+	border-left:5px dotted #CB4421;
 }
 
 .interiorpage .contentsection.third .tv23content .programdescription.first{
@@ -1857,6 +1857,127 @@ header .topnav a:hover{
 
 
 
+/* FORMS */
+
+.interiorpage .contentsection .formcontent{
+	max-width:700px;
+	padding:30px 50px;
+}
+
+.interiorpage .contentsection .formcontent .formrow{
+	display:block;
+	margin:0px auto;
+	padding:30px 0px;
+}
+
+.interiorpage .contentsection .formcontent .formrow .formdropdown.dropdown-processed{
+	float:left;
+	margin-right:20px;
+	margin-top:60px;
+}
+
+#formdropdown-1, #formdropdown-2, #formdropdown-3, #formdropdown-4{
+	margin-top:0px;
+}
+
+.interiorpage .contentsection .formcontent .formrow #formdropdown-4{
+	margin-right:0px;
+}
+
+.interiorpage .contentsection .formcontent .formrow .formdropdown.dropdown-processed a.formdropdown-link:hover{
+	border-bottom:0px;
+}
+
+#formdropdown-1 a.formdropdown-link,  #formdropdown-3 a.formdropdown-link{
+	color:#000000;
+	background-color:#cde5f1;
+	padding:20px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+#formdropdown-2 a.formdropdown-link,  #formdropdown-4 a.formdropdown-link{
+	color:#FFFFFF;
+	background-color:#cb4421;
+	padding:20px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+#formdropdown-5 a.formdropdown-link,  #formdropdown-7 a.formdropdown-link{
+	color:#FFFFFF;
+	background-color:#0d4b69;
+	padding:20px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+#formdropdown-6 a.formdropdown-link,  #formdropdown-8 a.formdropdown-link{
+	color:#000000;
+	background-color:#f8a083;
+	padding:20px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+#formdropdown-9 a.formdropdown-link,  #formdropdown-11 a.formdropdown-link{
+	color:#FFFFFF;
+	background-color:#cb4421;
+	padding:20px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+#formdropdown-10 a.formdropdown-link,  #formdropdown-12 a.formdropdown-link{
+	color:#000000;
+	background-color:#cde5f1;
+	padding:20px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+#formdropdown-13 a.formdropdown-link,  #formdropdown-15 a.formdropdown-link{
+	color:#000000;
+	background-color:#f8a083;
+	padding:20px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+#formdropdown-14 a.formdropdown-link,  #formdropdown-16 a.formdropdown-link{
+	color:#FFFFFF;
+	background-color:#0d4b69;
+	padding:20px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+
+
+.interiorpage .contentsection .formcontent .formdropdown.dropdown-processed .formdropdown-container{
+	display:none;
+	margin-top:50px;
+}
+
+.interiorpage .contentsection .formcontent .formdropdown.dropdown-processed .formdropdown-container ul{
+	list-style:none;
+}
+
+.interiorpage .contentsection .formcontent .formdropdown.dropdown-processed .formdropdown-container ul li{
+	list-style:none;
+}
+
+
+
+
 /* BOARDS */
 
 .interiorpage .contentsection.first .boardsfilter{
@@ -2011,22 +2132,28 @@ header .topnav a:hover{
 	float:left;
 	max-width:350px;
 	padding-bottom:30px;
-	text-align:right;
 }
 
 .interiorpage .contentsection .contactcontent .contactform label{
 	font-family:Montserrat;
 	font-size:16px;
+	display:block;
+	width:80px;
+	float:left;
+	clear:both;
+	margin-top:10px;
 }
 
 .interiorpage .contentsection .contactcontent .contactform select{
-	width:265px;
+	width:261px;
 	height:30px;
 	margin-bottom:10px;
 	border:2px solid #d6d6d6;
 	font-family:Montserrat;
 	font-size:16px;
 	background-image:(url'../images/dropdown_arrow.png') no-repeat right center;
+	display:block;
+	float:right;
 }
 
 .interiorpage .contentsection .contactcontent .contactform select:focus{
@@ -2039,10 +2166,12 @@ header .topnav a:hover{
 }
 
 .interiorpage .contentsection .contactcontent .contactform input[type="text"]{
-	width:265px;
+	width:248px;
 	height:30px;
 	border:2px solid #d6d6d6;
 	margin:10px 0px;
+	font-family:Montserrat;
+	padding-left:10px;
 }
 
 .interiorpage .contentsection .contactcontent .contactform input[type="text"]:focus{
@@ -2050,19 +2179,22 @@ header .topnav a:hover{
 }
 
 .interiorpage .contentsection .contactcontent .contactform textarea{
-	width:265px;
-	height:150px;
+	width:238px;
+	height:130px;
 	margin-top:10px;
 	border:2px solid #d6d6d6;
 	resize:none;
+	font-family:Sintony;
+	padding:10px;
 }
 
 .interiorpage .contentsection .contactcontent .contactform textarea:focus{
 	border:2px solid #636363;
 }
 
-.interiorpage .contentsection .contactcontent .contactform input[type="button"]{
-	background-color:#f8a083;
+.interiorpage .contentsection .contactcontent .contactform input[type="submit"]{
+	background-color:#CB4421;
+	color:#FFFFFF;
 	border:none;
 	margin-top:30px;
 	padding:15px 25px;
@@ -2071,6 +2203,11 @@ header .topnav a:hover{
 	border-radius:5px;
 	font-family:Montserrat;
 	font-size:16px;
+}
+
+.interiorpage .contentsection .contactcontent .contactform input[type="submit"]:hover{
+	background-color:#f8a083;
+	color:#000000;
 }
 
 .interiorpage .contentsection .contactcontent .contactinfo{
@@ -2113,6 +2250,55 @@ header .topnav a:hover{
 #TownClerk, #TownSupervisor, #TownSupervisorSecretary, #DeputySupervisor, #TownBoard01, #TownBoard02, #TownBoard03, #TownAccountant, #BuildingInspector, #PlanningBoardSecretary, #Webmaster, #VillageClerk, #VillageTreasurer, #WaterDepartment, #EyalSaad, #SpecialAssignments, #VillageHistorian{
 	display:none;
 }
+
+
+/* CONTACT-SUBMITTED */
+
+.interiorpage .contentsection.contact .contactcontent h1{
+	color:#000000;
+	text-transform:none;
+}
+
+.interiorpage .contentsection.contact .contactcontent .thankyoumessage{
+	max-width:350px;
+	display:block;
+	margin:0px auto;
+	margin-top:40px;
+}
+
+.interiorpage .contentsection.contact .contactcontent .thankyoumessage p{
+	text-align:center;
+}
+
+.interiorpage .contentsection.contact .contactcontent .contactreturn{
+	padding:60px 0px;
+	padding-bottom:40px;
+	text-align:center;
+}
+
+.interiorpage .contentsection.contact .contactcontent .contactreturn p{
+	text-align:center;
+}
+
+.interiorpage .contentsection.contact .contactcontent .contactreturn a{
+	background-color:#CB4421;
+	padding:15px 25px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	color:#FFFFFF;
+}
+
+.interiorpage .contentsection.contact .contactcontent .contactreturn a:hover{
+	background-color:#f8a083;
+	border-bottom:none;
+	color:#000000;
+}
+
+
+
+
+
 
 
 
