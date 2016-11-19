@@ -9,6 +9,8 @@
 		<title>Town & Village of Saugerties | Community</title>
 
 		<link rel="stylesheet" href="css/style.css">
+	  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Sintony" rel="stylesheet">
 	</head>
 
@@ -96,11 +98,224 @@
 					</div> <!--tv32streamcontent-->
 				</div> <!--contentsection second-->
 				
-				<div class="contentsection third">
-					<h1>Today on TV23</h1>
+				<div class="contentsection third" id="fullschedule">
+					<h1>This week on TV23</h1>
 
-					<div class="tv23content">
+					<div class="tv23schedcontent">
 						
+						<div id="tabs">
+							<ul>
+    							<li><a href="#fragment-1">SUN</a></li>
+    							<li><a href="#fragment-2">MON</a></li>
+    							<li><a href="#fragment-3">TUES</a></li>
+    							<li><a href="#fragment-4">WED</a></li>
+    							<li><a href="#fragment-5">THURS</a></li>
+    							<li><a href="#fragment-6">FRI</a></li>
+    							<li><a href="#fragment-7">SAT</a></li>
+  							</ul>
+
+  							<div id="fragment-1"> <!--SUN-->
+    							<div class="program one">
+    								<div class="programtime">
+    									<h2>2:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Smart Talk with Andrew Mazzone</h2>
+    									<p>Guest Ted Gwartney.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program one-->
+
+    							<div class="program two">
+    								<div class="programtime">
+    									<h2>6:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Colour In Your Life with Andrew Mazzone</h2>
+    									<p>Guest artist Sue Lederhose.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program two-->
+
+    							<div class="program three">
+    								<div class="programtime">
+    									<h2>9:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Smart Talk with Andrew Mazzone</h2>
+    									<p>Guest Ted Gwartney.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program three-->
+  							</div> <!--fragment-1-->
+
+  							<div id="fragment-2"> <!--MON-->
+    							<div class="program one">
+    								<div class="programtime">
+    									<h2>11:00 AM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Eat Well - Be Happy</h2>
+    									<p>Salmon Steaks, Wild & Brown Rice with Nori.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program one-->
+
+    							<div class="program two">
+    								<div class="programtime">
+    									<h2>6:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Eat Well - Be Happy</h2>
+    									<p>Salmon Steaks, Wild & Brown Rice with Nori.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program two-->
+  							</div> <!--fragment-2-->
+
+  							<div id="fragment-3"> <!--TUES-->
+    							<div class="program one">
+    								<div class="programtime">
+    									<h2>11:00 AM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Song Speak: The Art and Craft of Song Writing</h2>
+    									<p>Deanne Bryant & Marla Cannon-Gordina.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program one-->
+
+    							<div class="program two">
+    								<div class="programtime">
+    									<h2>7:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Song Speak: The Art and Craft of Song Writing</h2>
+    									<p>Deanne Bryant & Marla Cannon-Gordina.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program two-->
+  							</div> <!--fragment-3-->
+
+  							<div id="fragment-4"> <!--WED-->
+    							<div class="program one">
+    								<div class="programtime">
+    									<h2>11:00 AM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Saugerties Board of Education Meeting</h2>
+    									<p>Recorded Nov. 8th by Michael Schirmer.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program one-->
+
+    							<div class="program two">
+    								<div class="programtime">
+    									<h2>7:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Saugerties Board of Education Meeting</h2>
+    									<p>Recorded Nov. 8th by Michael Schirmer.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program two-->
+  							</div> <!--fragment-4-->
+
+  							<div id="fragment-5"> <!--THURS-->
+    							<div class="program one">
+    								<div class="programtime">
+    									<h2>2:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Song Speak: The Art and Craft of Song Writing</h2>
+    									<p>Rick and James Carnes.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program one-->
+
+    							<div class="program two">
+    								<div class="programtime">
+    									<h2>7:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Classic Movie Night</h2>
+    									<p>“Ali Baba & the 7 Saracens”, with Gordon Mitchell.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program two-->
+
+    							<div class="program three">
+    								<div class="programtime">
+    									<h2>9:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Song Speak: The Art and Craft of Song Writing</h2>
+    									<p>Rick and James Carnes.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program three-->
+  							</div> <!--fragment-5-->
+
+  							<div id="fragment-6"> <!--FRI-->
+    							<div class="program one">
+    								<div class="programtime">
+    									<h2>6:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Saugerties Most Wanted: November Edition</h2>
+    									<p>With Police Chief Joe Sinagra.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program one-->
+
+    							<div class="program two">
+    								<div class="programtime">
+    									<h2>6:30 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Saugerties Most Wanted: November Edition</h2>
+    									<p>With P.O. Jorge Castagnola.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program two-->
+
+    							<div class="program three">
+    								<div class="programtime">
+    									<h2>8:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Eat Well - Be Happy</h2>
+    									<p>Cool Weather Meals.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program three-->
+  							</div> <!--fragment-6-->
+
+  							<div id="fragment-7"> <!--SAT-->
+    							<div class="program one">
+    								<div class="programtime">
+    									<h2>2:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Colour In Your Life with Graeme Stevenson</h2>
+    									<p>Guest artist Sue Lederhose.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program one-->
+
+    							<div class="program two">
+    								<div class="programtime">
+    									<h2>9:00 PM</h2>
+    								</div> <!--programtime-->
+    								<div class="programdescription">
+    									<h2>Colour In Your Life with Graeme Stevenson</h2>
+    									<p>Guest artist Sue Lederhose.</p>
+    								</div> <!--programdescription-->
+    								<div style="clear:both"></div>
+    							</div> <!--program two-->
+  							</div> <!--fragment-7-->
+						
+						</div> <!--tabs-->
 					</div> <!--tv23content-->
 				</div> <!--contentsection third-->
 
@@ -128,6 +343,12 @@
 				<p>Website designed and coded by <a href="http://www.keroboanimation.com" target="_blank">Brooke Wimberley</a>
 			</div> <!--wrapper-->
 		</footer>
+
+		<script>
+  			$( function() {
+    			$( "#tabs" ).tabs();
+  			} );
+  		</script>
 	</body>
 
 </html>
