@@ -519,6 +519,7 @@ header .topnav a:hover{
 @media screen and (max-width:750px){
 	.homepage .content .upcomingevents .cycle-slideshow .individualevent .eventtext{
 		top:75px;
+		max-width:400px;
 	}
 
 	.homepage .content .upcomingevents .buttonswrapper{
@@ -551,6 +552,10 @@ header .topnav a:hover{
 }
 
 @media screen and (max-width:450px){
+	.homepage .content .upcomingevents .cycle-slideshow .individualevent .eventtext h2{
+		font-size:22px;
+		text-overflow:ellipsis;
+	}
 	.homepage .content .upcomingevents .cycle-slideshow .individualevent .eventtext p{
 		display:none;
 	}
@@ -774,19 +779,42 @@ header .topnav a:hover{
 	}
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:775px){
 	.interiorpage .content .interiornav.newspage p{
 		font-size:16px;
 	}
 
-	.interiorpage .content .interiornav.newspage ul{
-		
+	.interiorpage .contentsection .newsitemcontent .newsimage{
+		float:none;
+		max-width:600px;
+	}
+
+	.interiorpage .contentsection .newsitemcontent .newsimage img{
+		float:left;
+		width:150px;
+		margin-right:20px;
+	}
+
+	.interiorpage .contentsection .newsitemcontent .newsimage .newstags{
+		float:left;
+	}
+
+	.interiorpage .contentsection .newsitemcontent .newstext{
+		float:none;
+		max-width:600px;
+		margin-left:0px;
 	}
 
 	.interiorpage .content .interiornav.newspage ul li{
 		width:initial;
 		display:inline-block;
 		margin-right:20px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .contentsection .newsitemcontent{
+		padding:30px 25px;
 	}
 }
 
@@ -991,7 +1019,7 @@ header .topnav a:hover{
 		margin-top:30px;
 		padding-bottom:15px;
 		border-left:0px;
-		border-bottom:5px dotted #0d4b69;
+		border-bottom:5px dotted #cb4421;
 	}
 
 	.interiorpage .contentsection.third .tv23content .programdescription.first{
@@ -2815,6 +2843,7 @@ header .topnav a:hover{
 	.interiorpage .contentsection.third .transferstationcontent .transferright{
 		margin-left:50px;
 	}
+}
 
 @media screen and (max-width:800px){
 	.interiorpage .contentsection.first .foodpantrycontent .pantryhours{
@@ -2916,7 +2945,6 @@ header .topnav a:hover{
 	border:2px solid #d6d6d6;
 	font-family:Montserrat;
 	font-size:16px;
-	background-image:(url'../images/dropdown_arrow.png') no-repeat right center;
 	display:block;
 	float:right;
 }
@@ -3062,7 +3090,33 @@ header .topnav a:hover{
 }
 
 
+@media screen and (max-width:800px){
+	.interiorpage .contentsection .contactcontent .contactform{
+		float:none;
+		margin:0px auto;
+	}
 
+	.interiorpage .contentsection .contactcontent .contactinfo{
+		float:none;
+		margin:0px auto;
+	}
+}
+
+@media screen and (max-width:600px){
+	.interiorpage .contentsection .contactcontent{
+		padding:30px 25px;
+	}
+}
+
+@media screen and (max-width:400px){
+	.interiorpage .contentsection .contactcontent .contactinfo #contactreveal{
+		padding:10px 30px 50px 10px;
+		background-color:#cde5f1;
+		display:block;
+		width:200px;
+		height:100px;
+	}
+}
 
 
 
